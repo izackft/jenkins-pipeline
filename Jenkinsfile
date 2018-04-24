@@ -1,5 +1,5 @@
 stage 'Checkout'
  node('slave') {
-  deleteDir()
-  checkout scm
+ sh 'echo Namba oi' 
  }
+
